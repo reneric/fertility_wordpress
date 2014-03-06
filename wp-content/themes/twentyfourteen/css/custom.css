@@ -303,6 +303,9 @@ ul.menutop li a{
 	background-color: #62CDF2;
 	color: #fff;
 }
+.contentheading{
+	width:100%;
+}
 .contentheading h1{
 	color:#CAD24A;
 	text-transform: uppercase;
