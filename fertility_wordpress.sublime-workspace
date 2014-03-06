@@ -1,0 +1,924 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get_template",
+				"get_template_directory_uri"
+			],
+			[
+				"ca",
+				"capitalize"
+			],
+			[
+				"more",
+				"moreparent"
+			],
+			[
+				"e",
+				"ex	extend"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mon",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/callouts/left_col.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/queue/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/newsletter/problem/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/default/iphone/template/tag/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/tag/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/rss/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/tag/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/rss/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/adminhtml/default/default/template/backup/list.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Markup/Renderer/Html/List.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/PEAR/HTTP/Request/Listener.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Service/Simpy/LinkSet.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/tiny_mce/classes/LegacyInput.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/LICENSE.html",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/js/varien/product.js",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/locale/en_US/template/email/product_share.html",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/errors/processor.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/lib/Zend/Filter/PregReplace.php",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/php.ini.sample",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/davissales/default/template/page/1column.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.htaccess",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/app/design/frontend/base/default/template/page/1column.phtml",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/var/session/sess_129911cab4dfef14bb0fc33f30a187b2",
+		"/Users/rsimmons/Desktop/Development/Projects/DavisSales/.gitignore",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/sftp-config.json",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-news.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/style.css",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/header.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/js/main.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/partials/_mixins.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/style.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-home.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-practice.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/single.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-contact.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-espanol.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/chatmobile.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-profile.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/chatespanol.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/page-case.php",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/sidebar.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/logo.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/style.css.map",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/functions.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/hatchit/custom-functions.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/areas-featured.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/css/bootstrap.css",
+		"/var/folders/tx/q246r1wj4rb4wg4nf2hmfgr80000gn/T/sublime-sftp-browse-1384195177/yoloclients/home3/yolocli1/public_html/sigma/wp-config.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/main.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/css/main.css",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/js/respond.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/js/html5shiv.js",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/partials/_base.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/partials/_typography.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/scss/partials/_fontface.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/content.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/search.php",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/profile.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/stripe-border.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/tw.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/clay.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/pen.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/orange-border.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/ln.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/medical.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/header-bg.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/gp.png",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/intro.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/img/favicon.ico",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/css/flex.css",
+		"/Users/rsimmons/Desktop/Development/Projects/Clay Burgess/js/plugins.js",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_mixins.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-profile.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-news.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/hatchit/custom-functions.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-footer.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-practice.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/css/main.css",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/main.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/style.css",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/single.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/js/main.js",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/post-sidebar.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/functions.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/aside-sidebar.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-case.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-espanol.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-home.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/page-contact.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/content.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/header.php",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/js/plugins.js",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/wptitleattr.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/sub.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_typography.scss",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/triangle.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_base.scss",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/os.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/books.png",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/boom.png",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/left.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/uppercase.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/areas-featured.png",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/transition.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/extend.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/form-box.png",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/box.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/button.sublime-snippet",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/button.sublime-text",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/scss/partials/_colors.scss",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/clay.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/profile.png",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/chat.png",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/fb.png",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/ln.png",
+		"/Users/rsimmons/Library/Application Support/Sublime Text 3/Packages/User/border.sublime-snippet",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/air.png",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/civil.png",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/auto.png",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/auto.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/civil.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/classaction.jpg",
+		"/Users/rsimmons/Desktop/Development/Projects/clay-burgess/img/medical.jpg"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class=\"main",
+			"92cdcf",
+			"#searchform",
+			".links",
+			"max",
+			"fb",
+			">	",
+			"	\n",
+			"@media",
+			"contact",
+			"chat",
+			"@media",
+			"chat",
+			"@media",
+			"calc",
+			"@media",
+			"media",
+			"font",
+			"@media",
+			"div",
+			"ecget_the_title",
+			"@media",
+			"#primary[role=\"profile\"] .content-section .content section h1",
+			"site-t",
+			"#page",
+			"page",
+			"style",
+			"''",
+			"style",
+			"style.css",
+			"@media",
+			"areas",
+			"@media",
+			"wp",
+			"domain",
+			"oldurl",
+			"newurl",
+			"80px",
+			"fontawesome",
+			"addClass",
+			"display: none",
+			"media",
+			"collapse",
+			"@media",
+			"margin",
+			"1024px",
+			"1268px",
+			"1024px",
+			"@media",
+			"768",
+			"collapse",
+			"@media",
+			"div",
+			"10px",
+			"margin",
+			"left",
+			"news",
+			"catpost",
+			"practice",
+			"home",
+			"@media",
+			"fb",
+			"div",
+			"<div class=\"col-sm-6\">",
+			"site-",
+			"top",
+			"f178",
+			"fontawesome",
+			"margin",
+			"searchform",
+			"primary",
+			"filter",
+			"news",
+			"primary",
+			"true",
+			"accidents",
+			"margin",
+			"normal",
+			".8",
+			"opacity: .8",
+			"uppercase",
+			";\n",
+			"uppercas",
+			"Source",
+			" </",
+			"post-meta",
+			"wpanchor",
+			"aside",
+			"georgia",
+			"opensans",
+			"entry",
+			"media",
+			"endif",
+			"echo",
+			"Wrongfu",
+			"moreparent",
+			"mpheight",
+			"more",
+			"twentyeleven_excerpt_length",
+			"custom_excerpt_length",
+			"twentyeleven_excerpt_length",
+			"margin",
+			"$gap",
+			"social",
+			"media",
+			"line-height: 100%;",
+			"@include box(827px,66px, #1d94ad);",
+			"#photo{",
+			"#photo",
+			"street_address",
+			":    ",
+			"     $",
+			":         ",
+			"         ",
+			"<h5>",
+			"h1",
+			"get_the_id",
+			",5",
+			"h5",
+			"5",
+			"get_the_ID",
+			"the_ID",
+			"footer_message",
+			"log",
+			"section",
+			"h1",
+			"section",
+			"post"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"968"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 27.0
+	},
+	"output.sftp":
+	{
+		"height": 34.0
+	},
+	"project": "fertility_wordpress.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"products.pht",
+				"app/design/frontend/davissales/default/template/page/products.phtml"
+			],
+			[
+				"1",
+				"app/design/frontend/davissales/default/template/page/1column.phtml"
+			],
+			[
+				"sf",
+				"sftp-config.json"
+			],
+			[
+				"main.",
+				"css/main.css"
+			],
+			[
+				"cust",
+				"hatchit/custom-functions.php"
+			],
+			[
+				"prac",
+				"page-practice.php"
+			],
+			[
+				"sft",
+				"sftp-config.json"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"style.s",
+				"style.scss"
+			],
+			[
+				"foo",
+				"footer.php"
+			],
+			[
+				"home",
+				"page-home.php"
+			],
+			[
+				"news",
+				"page-news.php"
+			],
+			[
+				"main.css",
+				"css/main.css"
+			],
+			[
+				"main.scss",
+				"scss/main.scss"
+			],
+			[
+				"foot",
+				"page-footer.php"
+			],
+			[
+				"pr",
+				"page-practice.php"
+			],
+			[
+				"area",
+				"page-practice.php"
+			],
+			[
+				"single",
+				"single.php"
+			],
+			[
+				"footer",
+				"page-footer.php"
+			],
+			[
+				"page-",
+				"page-practice.php"
+			],
+			[
+				"page",
+				"page-contact.php"
+			],
+			[
+				"prof",
+				"page-profile.php"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"ooter",
+				"page-footer.php"
+			],
+			[
+				"esp",
+				"page-espanol.php"
+			],
+			[
+				"page-con",
+				"page-contact.php"
+			],
+			[
+				"profile",
+				"page-profile.php"
+			],
+			[
+				"foote",
+				"footer.php"
+			],
+			[
+				"page-home",
+				"page-home.php"
+			],
+			[
+				"sideb",
+				"sidebar.php"
+			],
+			[
+				"pro",
+				"page-profile.php"
+			],
+			[
+				"case",
+				"page-case.php"
+			],
+			[
+				"contact",
+				"page-contact.php"
+			],
+			[
+				"styl",
+				"style.css"
+			],
+			[
+				"page-pro",
+				"page-profile.php"
+			],
+			[
+				"style",
+				"style.css.map"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"st",
+				"style.css"
+			],
+			[
+				"custo",
+				"hatchit/custom-functions.php"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"pra",
+				"page-practice.php"
+			],
+			[
+				"cus",
+				"hatchit/custom-functions.php"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"font",
+				"scss/partials/_fontface.scss"
+			],
+			[
+				"typ",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"base",
+				"scss/partials/_base.scss"
+			],
+			[
+				"contac",
+				"page-contact.php"
+			],
+			[
+				"praci",
+				"page-practice.php"
+			],
+			[
+				"page-f",
+				"page-footer.php"
+			],
+			[
+				"content",
+				"content.php"
+			],
+			[
+				"search",
+				"search.php"
+			],
+			[
+				"pag",
+				"page-espanol.php"
+			],
+			[
+				"custom",
+				"hatchit/custom-functions.php"
+			],
+			[
+				"plu",
+				"js/plugins.js"
+			],
+			[
+				"page-news",
+				"page-news.php"
+			],
+			[
+				"page-new",
+				"page-news.php"
+			],
+			[
+				"mixins",
+				"scss/partials/_mixins.scss"
+			],
+			[
+				"profil",
+				"page-profile.php"
+			],
+			[
+				"page-footer",
+				"page-footer.php"
+			],
+			[
+				"mix",
+				"scss/partials/_mixins.scss"
+			],
+			[
+				"mixin",
+				"scss/partials/_mixins.scss"
+			],
+			[
+				"practice",
+				"page-practice.php"
+			],
+			[
+				"page-case",
+				"page-case.php"
+			],
+			[
+				"cont",
+				"content.php"
+			],
+			[
+				"c",
+				"hatchit/custom-functions.php"
+			],
+			[
+				"plug",
+				"js/plugins.js"
+			],
+			[
+				"page-pra",
+				"page-practice.php"
+			],
+			[
+				"f",
+				"functions.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"hom",
+				"page-home.php"
+			],
+			[
+				"cu",
+				"hatchit/custom-functions.php"
+			],
+			[
+				"main.scs",
+				"scss/main.scss"
+			],
+			[
+				"profi",
+				"page-profile.php"
+			],
+			[
+				"plugins",
+				"js/plugins.js"
+			],
+			[
+				"colors",
+				"scss/partials/_colors.scss"
+			],
+			[
+				"typo",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"grid",
+				"scss/partials/_grid.scss"
+			],
+			[
+				"main.js",
+				"js/main.js"
+			],
+			[
+				"main.sc",
+				"scss/main.scss"
+			],
+			[
+				"color",
+				"scss/partials/_colors.scss"
+			],
+			[
+				"parti",
+				"scss/partials/_mixins.scss"
+			],
+			[
+				"company",
+				"company.php"
+			],
+			[
+				"ty",
+				".sass-cache/952a4144bc8a501ea8db557fa6bbc78969fd7b1d/_typography.scssc"
+			],
+			[
+				"blog",
+				"content-blog.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"404",
+				"404.php"
+			],
+			[
+				"sidebar",
+				"sidebar.php"
+			],
+			[
+				"compa",
+				"company.php"
+			],
+			[
+				"resp",
+				"css/responsive.css"
+			],
+			[
+				"main.css.map",
+				"css/main.css.map"
+			],
+			[
+				"slider",
+				"slider.php"
+			],
+			[
+				"sqs",
+				"sqs.php"
+			],
+			[
+				"respo",
+				"css/responsive.css"
+			],
+			[
+				"respon",
+				"css/responsive.css"
+			],
+			[
+				"en",
+				"hatchit/enqueue.php"
+			],
+			[
+				"live",
+				"css/live.css"
+			],
+			[
+				"enq",
+				"hatchit/enqueue.php"
+			],
+			[
+				"functions",
+				"functions.php"
+			],
+			[
+				"sqm",
+				"sqm.php"
+			],
+			[
+				"compan",
+				"company.php"
+			],
+			[
+				"functi",
+				"functions.php"
+			],
+			[
+				"main.cs",
+				"css/main.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"sum",
+				"~/Desktop/Development/Projects/summit/summit.sublime-project"
+			],
+			[
+				"",
+				"~/Desktop/Development/Projects/feedme/feedme.sublime-project"
+			],
+			[
+				"s",
+				"~/Desktop/Development/Projects/summit/summit/summit.sublime-workspace"
+			],
+			[
+				"su",
+				"~/Desktop/Development/Projects/summit/summit/summit.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

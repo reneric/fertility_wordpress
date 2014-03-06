@@ -9,10 +9,12 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-
+<tr>
+    <td height="2" align="center" style="padding-top:5px;"><a href="/fwhc-home" class="mainlevelfooter" >Fertility &amp; Women's Health Center</a><span class="mainlevelfooter" >|</span><a href="/tubal-ligation-reversal" class="mainlevelfooter" >Tubal Reversal Louisiana</a><span class="mainlevelfooter" >|</span><a href="/the-gift-of-hope" class="mainlevelfooter" >The Gift of Hope</a><span class="mainlevelfooter" >|</span><a href="https://remote.drstorment.com/referringmd/" class="mainlevelfooter" >eIVF Physician Portal</a><span class="mainlevelfooter" >|</span><a href="/admin" class="mainlevelfooter" >Admin</a><span class="mainlevelfooter" >|</span><a href="http://www.fertilityanswers.com/blog/wp-admin/" class="mainlevelfooter" >Blog</a><span class="mainlevelfooter" >|</span><a href="/contact-us" class="mainlevelfooter" >Contact Us</a><p class="footer">Lafayette  |  Lake Charles  |  Alexandria     (888) 467-BABY |  FertilityAnswers.com © 2011 All Rights Reserved.</p>&nbsp;</td>
+  </tr>
 		</div><!-- #main -->
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
+		<footer style="display:none;" id="colophon" class="site-footer" role="contentinfo">
 
 			<?php get_sidebar( 'footer' ); ?>
 
