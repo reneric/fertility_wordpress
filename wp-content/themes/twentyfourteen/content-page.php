@@ -7,11 +7,11 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-
+<?php the_post_thumbnail('twentyfourteen-full-width'); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		// Page thumbnail and title.
-		twentyfourteen_post_thumbnail();
+		
 		the_title( '<header class="entry-header contentheading"><h1 class="entry-title">', '</h1></header><!-- .entry-header -->' );
 	?>
 	<div class="entry-content">

@@ -4,7 +4,7 @@
 	margin: 0 auto;
 }
 .nav-top{
-	background-color: #62cdf2;
+	background-color: #6acdee;
 	width: 100%;
 	overflow: hidden;
 	padding: 8px 0;
@@ -285,6 +285,7 @@ ul.menutop li a{
     margin: 9px 0px 10px 22px;
     line-height: 32px;
     font-size: 12px;
+    width: 171px;
 }
 .page-content .contentpaneopen p{
 	color: #000;
@@ -353,6 +354,9 @@ body{
 p{
     line-height:30px;
     margin:4px;
+}
+.entry-content a{
+	color:#A7AF1F;
 }
 .purple{
     color:#7f3e8e; 

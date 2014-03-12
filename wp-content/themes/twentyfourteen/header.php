@@ -62,13 +62,13 @@
 </form>
 	    </td>
 	    <td width="34" align="right" valign="center" class="social">
-	    <table>
+	    <table style="width:171px;">
 <tbody>
 <tr>
-<td style="padding-left: 7px; padding-right: 7px;"><a target="_blank" href="http://twitter.com/#!/fertilitydocla" title="Follow our docs on Twitter!"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/twitter.png" height="28" width="29" /></a></td>
-<td style="padding-left: 7px; padding-right: 7px;"><a target="_blank" href="http://www.facebook.com/pages/Lafayette-LA/FertilityAnswers/388415746829" title="Join FertilityAnswer's Facebook Page!"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/facebook.png" height="29" width="28" /></a></td>
-<td style="padding-left: 7px; padding-right: 7px;"><a target="_blank" href="http://www.youtube.com/user/fertilityanswers?blend=4&amp;ob=5" title="FertilityAnswer's YouTube Channel"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/youtube.png" height="29" width="29" /></a></td>
-<td style="padding-left: 7px; padding-right: 7px;"><a target="_blank" href="http://www.flickr.com/photos/fwhcla/" title="FWHC's Flickr Photos"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/flickr.png" border="0" height="29" width="28" /></a></td>
+<td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://twitter.com/#!/fertilitydocla" title="Follow our docs on Twitter!"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/twitter.png" height="28" width="29" /></a></td>
+<td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://www.facebook.com/pages/Lafayette-LA/FertilityAnswers/388415746829" title="Join FertilityAnswer's Facebook Page!"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/facebook.png" height="29" width="28" /></a></td>
+<td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://www.youtube.com/user/fertilityanswers?blend=4&amp;ob=5" title="FertilityAnswer's YouTube Channel"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/youtube.png" height="29" width="29" /></a></td>
+<td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://www.flickr.com/photos/fwhcla/" title="FWHC's Flickr Photos"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/flickr.png" border="0" height="29" width="28" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -86,19 +86,19 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
-			<div class="search-toggle">
+			<!-- <div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
-			</div>
+			</div> -->
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<h1 class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></h1>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 			</nav>
 		</div>
-		<div id="search-container" class="search-box-wrapper hide">
+		<!-- <div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
-				<?php get_search_form(); ?>
+				<?php //get_search_form(); ?>
 			</div>
-		</div>
+		</div> -->
 	</header><!-- #masthead -->
 	<div id="main" class="site-main">

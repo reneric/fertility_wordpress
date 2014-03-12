@@ -808,6 +808,7 @@ span + .edit-link:before,
 	position: relative;
 	margin: 0 auto;
 	width: 880px;
+	z-index: 2;
 }
 
 .main-content {
@@ -832,15 +833,15 @@ span + .edit-link:before,
 }
 
 .site-header {
-	background-color: #CAD24A;
+	/* background-color: #CAD24A; */
 	max-width: 1260px;
-	position: relative;
+	/* position: relative; */
 	width: 100%;
 	z-index: 4;
 }
 
 .header-main {
-	min-height: 48px;
+	min-height: 38px;
 	padding: 0 10px;
 }
 
@@ -943,8 +944,9 @@ span + .edit-link:before,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #55d737;
+	color: #fff;
 	font-weight: 900;
+	background-color: #6acdee;
 }
 
 /* Primary Navigation */
@@ -972,6 +974,9 @@ span + .edit-link:before,
 
 .primary-navigation a {
 	padding: 7px 0;
+	width: 109px;
+	text-align: center;
+	background-color: #cad055;
 }
 
 /* Secondary Navigation */
@@ -1040,7 +1045,7 @@ span + .edit-link:before,
  */
 
 .post-thumbnail {
-	background: #b2b2b2 url(images/pattern-light.svg) repeat fixed;
+	/* background: #b2b2b2 url(images/pattern-light.svg) repeat fixed; */
 	display: block;
 	position: relative;
 	width: 100%;
@@ -1054,6 +1059,7 @@ a.post-thumbnail:hover {
 .full-width .post-thumbnail img {
 	display: block;
 	margin: 0 auto;
+	width: 880px;
 }
 
 
@@ -3036,7 +3042,10 @@ article.page{
 		padding: 0 10px;
 	}
 }
-
+.site-navigation li,
+	.primary-navigation li {
+		
+	}
 @media screen and (min-width: 401px) {
 	a.post-thumbnail:hover img {
 		opacity: 0.85;
@@ -3221,12 +3230,17 @@ article.page{
 
 	.full-width .site-content {
 		margin-right: 0;
-	}
+	
+		margin-bottom: 50px;
+}
 
 	.full-width .site-content .has-post-thumbnail .entry-header,
 	.full-width.singular .site-content .hentry.has-post-thumbnail {
 		margin-top: -48px;
-	}
+	
+		margin-bottom: 0;
+		padding-bottom: 0;
+}
 
 	#secondary,
 	#supplementary {
@@ -3312,7 +3326,9 @@ article.page{
 @media screen and (min-width: 783px) {
 	.header-main {
 		padding-right: 0;
-	}
+	
+		padding-left: 0;
+}
 
 	.search-toggle {
 		margin-right: 0;
@@ -3329,6 +3345,7 @@ article.page{
 		top: 0;
 	
 		/* display: none; */
+		padding-left: 3px;
 }
 
 	.masthead-fixed .site-main {
@@ -3351,10 +3368,12 @@ article.page{
 	.primary-navigation {
 		float: right;
 		font-size: 11px;
-		margin: 0 1px 0 -12px;
-		padding: 0;
+		margin: 0 1px;
+		padding: 0 0 0 3px;
 		text-transform: uppercase;
-	}
+	
+		width: 100%;
+}
 
 	.primary-navigation .menu-toggle {
 		display: none;
@@ -3375,14 +3394,16 @@ article.page{
 	.primary-navigation li {
 		border: 0;
 		display: inline-block;
-		height: 48px;
-		line-height: 48px;
+		height: 37px;
+		line-height: 37px;
+	
+		margin: 0 -1px;
 		position: relative;
-	}
+}
 
 	.primary-navigation a {
 		display: inline-block;
-		padding: 0 12px;
+		padding: 0;
 		white-space: nowrap;
 	}
 
@@ -3391,10 +3412,12 @@ article.page{
 		float: left;
 		margin: 0;
 		position: absolute;
-		top: 48px;
+		top: 37px;
 		left: -999em;
 		z-index: 99999;
-	}
+	
+		text-align: left;
+}
 
 	.primary-navigation li li {
 		border: 0;
@@ -3412,7 +3435,9 @@ article.page{
 		padding: 18px 12px;
 		white-space: normal;
 		width: 176px;
-	}
+	
+		text-align: left;
+}
 
 	.primary-navigation li:hover > a,
 	.primary-navigation li.focus > a {
@@ -3437,8 +3462,10 @@ article.page{
 
 	.primary-navigation .menu-item-has-children > a,
 	.primary-navigation .page_item_has_children > a {
-		padding-right: 26px;
-	}
+		padding-right: 0;
+	
+		text-align: center;
+}
 
 	.primary-navigation .menu-item-has-children > a:after,
 	.primary-navigation .page_item_has_children > a:after {
@@ -3450,7 +3477,10 @@ article.page{
 		right: 12px;
 		top: 22px;
 		vertical-align: text-bottom;
-	}
+	
+		display: none;
+		display: n;
+}
 
 	.primary-navigation li .menu-item-has-children > a,
 	.primary-navigation li .page_item_has_children > a {
@@ -3555,7 +3585,7 @@ article.page{
 	}
 
 	.full-width.singular .site-content .hentry.has-post-thumbnail {
-		margin-top: -72px;
+		margin-top: 13px;
 	}
 
 	.featured-content {
@@ -3574,7 +3604,7 @@ article.page{
 
 	.site-content {
 		margin-right: 29.04761904%;
-		margin-left: 182px;
+		/* margin-left: 182px; */
 	}
 
 	.site-content .entry-header {
@@ -3593,7 +3623,7 @@ article.page{
 	.site:before {
 		/* background-color: #000; */
 		content: "";
-		display: block;
+		display: none;
 		height: 100%;
 		min-height: 100%;
 		position: absolute;
@@ -3923,8 +3953,10 @@ article.page{
 
 	.site-content,
 	.site-main .widecolumn {
-		margin-left: 0;
-	}
+		margin: 0 auto;
+	
+		width: 100%;
+}
 
 	.site:before {
 		width: 222px;
