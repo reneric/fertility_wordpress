@@ -72,8 +72,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding: 0;
 	/* vertical-align: baseline; */
 }
-.flexslider {}
-.flexslider ul.slides {}
+.flexslider {
+	margin-top: 28px;
+}
+.flexslider ul.slides {
+	margin: 0;
+	padding: 0;
+}
 .flexslider ul.slides li {}
 .flexslider ul.slides li a {}
 .flexslider ul.slides li a img {}
@@ -81,9 +86,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	list-style-type: none;
 }
 .flex-direction-nav li {}
-.flex-direction-nav li a {}
-.flex-direction-nav li a .flex-next{}
-.flex-direction-nav li a .flex-prev{}
+.flex-direction-nav li a {
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+.flex-direction-nav li a .flex-next{
+	background-image: url("images/mod_ppc_simple_spotlight/img/button/button-next.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.flex-direction-nav li a .flex-prev{
+	background-image: url("images/mod_ppc_simple_spotlight/img/button/button-prev.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
 article,
 aside,
 details,
