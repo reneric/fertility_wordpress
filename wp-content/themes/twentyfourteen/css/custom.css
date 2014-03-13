@@ -369,6 +369,7 @@ ul.menutop li a{
     margin: 4px 0;
     
     z-index: 999;
+    top: 0;
 }
 .social a.btn {
     display: block;
