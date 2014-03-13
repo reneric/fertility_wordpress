@@ -28,6 +28,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Aguafina+Script|Dancing+Script|Seaweed+Script|Euphoria+Script' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/custom.css">
 </head>
