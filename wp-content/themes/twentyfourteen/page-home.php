@@ -17,17 +17,26 @@ get_header(); ?>
   	<td class="bigger">
   		<a href="#" class="infertility">
   			<img src="<?php echo get_template_directory_uri();?>/images/main/stories/infertility.png" alt="Infertility Care" />
-  			<h2>Infertility Care</h2>
+  			<div class="caption">
+  				<h2>Infertility Care</h2>
+  				<p>Individualized infertility treatment in a caring environment</p>
+			</div><!-- caption -->  				
   		</a>
   	</td>
   	<td class="smaller">
   		<a href="#" class="small">
   			<img src="<?php echo get_template_directory_uri();?>/images/main/stories/tubal.png" alt="Tubal" />
-  			<h2>Tubal Reversal</h2>
+  			<div class="caption">
+  				<h2>Tubal Reversal</h2>
+  				<p>Providing couples a second chance</p>
+			</div><!-- caption -->  				
   		</a>
   		<a href="#" class="small">
   			<img src="<?php echo get_template_directory_uri();?>/images/main/stories/giftofhope.png" alt="Gift of Hope" />
-  			<h2>Gift of Hope</h2>
+  			<div class="caption">
+  				<h2>Gift of Hope</h2>
+  				<p>Giving back to the community</p>
+			</div><!-- caption -->  				
   		</a>
   	</td>
   </tr>
