@@ -71,8 +71,8 @@ $jppc(document).ready(function($) {
 </script>
 <div style="clear:both;background:none;width:100%;float:left; " >  
 <div class="slideshow" id="sp92" style="width:197px; height:203px;">
-<div class="flexslider">
-<ul class="slides">
+<div class="flexslider clearfix">
+<ul class="slides clearfix">
 	<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt=""></a></li>
 	<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/slider2.jpg" alt=""></a></li>
 	<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/slider3.jpg" alt=""></a></li>
