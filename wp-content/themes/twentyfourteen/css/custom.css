@@ -355,8 +355,12 @@ ul.menutop li a{
     z-index: 99;
     background-color: transparent;
 }
-.search{
+.site-content .page-header{
+    margin-top:25px;
+}
+#page .search{
     position: relative;
+    width: 256px;
 }
 .search:after{
     content: "\f002";
