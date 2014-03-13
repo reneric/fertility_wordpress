@@ -31,7 +31,8 @@
 	<script>
 $(window).load(function() {
     $('.flexslider').flexslider({
-    	controlNav: false  
+    	controlNav: false,
+    	animation: "slide"
     });
   });
 	</script>
