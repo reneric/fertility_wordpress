@@ -71,6 +71,15 @@ $jppc(document).ready(function($) {
 </script>
 <div style="clear:both;background:none;width:100%;float:left; " >  
 <div class="slideshow" id="sp92" style="width:197px; height:203px;">
+<div class="flexslider">
+<ul class="slides">
+	<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/slider1.jpg" alt=""></a></li>
+	<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/slider2.jpg" alt=""></a></li>
+	<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/slider3.jpg" alt=""></a></li>
+	<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/slider4.jpg" alt=""></a></li>
+	
+</ul>
+</div><!-- flexslider -->
 <ul style="background:none;margin:0px;padding:0px">
 	<li style="background:none;margin:0px;padding:0px"><a href="http://www.fertilityanswers.com/meet-our-clincians/192-dr-john-storment-receives-patient-choice-award-for-fifth-consecutive-year" target="_self"><img src="<?php echo get_template_directory_uri(); ?>/images/mod_ppc_simple_spotlight/img/LaLifeBestDoc2014.jpg" width="197px" height="203px" border="0" alt="image" title="image" /></a></li><li style="background:none;margin:0px;padding:0px"><a href="http://www.fertilityanswers.com/meet-our-clincians/192-dr-john-storment-receives-patient-choice-award-for-fifth-consecutive-year" target="_self"><img src="http://localhost:8888/modules/mod_ppc_simple_spotlight/img/patientchoice.jpg" width="197px" height="203px" border="0" alt="image" title="image" /></a></li><li style="background:none;margin:0px;padding:0px"><a href="http://www.fertilityanswers.com/meet-our-clincians/192-dr-john-storment-receives-patient-choice-award-for-fifth-consecutive-year" target="_self"><img src="http://localhost:8888/modules/mod_ppc_simple_spotlight/img/castleconnolly1.jpg" width="197px" height="203px" border="0" alt="image" title="image" /></a></li><li style="background:none;margin:0px;padding:0px"><a href="http://www.fertilityanswers.com/past-recipients/gift-of-hope-2013" target="_self"><img src="http://localhost:8888/modules/mod_ppc_simple_spotlight/img/rotator_taylor.jpg" width="197px" height="203px" border="0" alt="image" title="image" /></a></li><li style="background:none;margin:0px;padding:0px"><a href="http://www.fertilityanswers.com/rss-feed/197-take-shape-for-life" target="_self"><img src="http://localhost:8888/modules/mod_ppc_simple_spotlight/img/rotator_tsfl.jpg" width="197px" height="203px" border="0" alt="image" title="image" /></a></li>	</ul>
     </div>

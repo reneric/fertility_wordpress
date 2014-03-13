@@ -35,5 +35,6 @@ wp-content/plugins/index.php
 wp-content/themes/index.php
 wp-content/uploads/
 wp-content/upgrade/
+wp-config.php
 wp-content/wp-cache-config.php
 
