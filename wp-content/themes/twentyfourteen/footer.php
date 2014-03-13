@@ -26,5 +26,10 @@
 	</div><!-- #page -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/flexslider.js"></script>
 	<?php wp_footer(); ?>
+	<script>
+$(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+	</script>
 </body>
 </html>
