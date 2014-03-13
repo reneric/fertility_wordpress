@@ -137,12 +137,12 @@ tr.bottom td {
 }
 tr.bottom td img {
     max-width: 100%;
-    margin: 20px auto;
+    margin: 110px auto;
     text-align: center;
 }
 tr.bottom td.left img{
 	max-width: 380px;
-	margin-bottom: 61px;
+	margin-bottom: 89px;
 	margin-top: 0;
 }
 .social td {}
