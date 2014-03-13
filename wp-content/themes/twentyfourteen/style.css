@@ -84,7 +84,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .flexslider ul.slides li a img {}
 .flex-direction-nav {
 	list-style-type: none;
-margin: 0 43px;
+margin: 16px 43px 0;
 padding: 0;
 position: relative;
 width: 100%;
