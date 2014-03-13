@@ -100,6 +100,9 @@ width: 218px;
     background-color: #cad24a;
     line-height: 34px;
     position: relative;
+font-family: Dancing Script;
+font-style: italic;
+font-size: 19px;
 }
 tr.bottom td.col2 img{
 	margin: 20px;
@@ -232,12 +235,16 @@ tr.bigimages td a h2{
 	left: 0;
 	right:0;
 	bottom:0;
-	padding: 0;
+	padding: 0px 0 0 0;
 	margin: 0;
 	color: #fff;
 	font-weight: normal;
 	text-align: center;
-	line-height: 52px;
+	line-height: 50px;
+	font-family: Dancing Script;
+	letter-spacing: 0.1em;
+	font-size: 29px;
+	font-style: italic;
 }
 tr.bigimages{
     width: 100%;

@@ -28,6 +28,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	<link href='http://fonts.googleapis.com/css?family=Aguafina+Script|Dancing+Script|Seaweed+Script|Euphoria+Script' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/custom.css">
 </head>
 
@@ -73,8 +74,8 @@
 </tbody>
 </table>
 	    
-	    	<a href="#" class="btn"> Doctor&apos;s Blog</a>
-	    	<a href="#" class="btn"> Patient Resources</a>
+	    	<a href="/blog" class="btn"> Doctor&apos;s Blog</a>
+	    	<a href="/patient-resources" class="btn"> Patient Resources</a>
 	    </td>
 	    </tr>
 	</table></td>
@@ -92,7 +93,8 @@
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<h1 class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></h1>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' , 'depth' => 0,) ); ?>
+				<div class="submenus"></div><!-- submenus -->
 			</nav>
 		</div>
 		<!-- <div id="search-container" class="search-box-wrapper hide">

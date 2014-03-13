@@ -50,8 +50,8 @@ get_header(); ?>
   	<td class="left">
   		<img src="<?php echo get_template_directory_uri(); ?>/images/main/stories/eivf_large.png" alt="eivf" />
   		<div class="btn-wrap">
-  			<a href="#" class="btn">Patient Portal</a>
-  			<a href="#" class="btn">Physician Portal</a>
+  			<a href="https://remote.drstorment.com/patient/" class="btn">Patient Portal</a>
+  			<a href="https://remote.drstorment.com/referringmd/" class="btn">Physician Portal</a>
   		</div><!-- btn-wrap -->
   	</td>
   	<td class="col2">

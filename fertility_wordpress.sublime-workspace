@@ -1394,6 +1394,10 @@
 		"selected_items":
 		[
 			[
+				"su",
+				"~/Desktop/Development/Projects/summit/summit.sublime-project"
+			],
+			[
 				"",
 				"~/Desktop/Development/Projects/DavisSales/davis_sales.sublime-project"
 			],
@@ -1407,10 +1411,6 @@
 			],
 			[
 				"s",
-				"~/Desktop/Development/Projects/summit/summit/summit.sublime-workspace"
-			],
-			[
-				"su",
 				"~/Desktop/Development/Projects/summit/summit/summit.sublime-workspace"
 			]
 		],
