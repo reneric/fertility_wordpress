@@ -84,6 +84,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .flexslider ul.slides li a img {}
 .flex-direction-nav {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 .flex-direction-nav li {}
 .flex-direction-nav li a {
@@ -91,12 +93,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	height: 32px;
 	display: block;
 }
-.flex-direction-nav li a .flex-next{
+.flex-direction-nav li a.flex-next{
 	background-image: url("images/mod_ppc_simple_spotlight/img/button/button-next.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 }
-.flex-direction-nav li a .flex-prev{
+.flex-direction-nav li a.flex-prev{
 	background-image: url("images/mod_ppc_simple_spotlight/img/button/button-prev.png");
 	background-repeat:no-repeat;
 	background-position:center center;
