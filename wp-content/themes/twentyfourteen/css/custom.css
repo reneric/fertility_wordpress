@@ -172,9 +172,10 @@ tr.bottom td.left {
 	border-left:2px solid transparent;
 }
 img#index_r1_c1{
-    margin-top: -25px;
-    width: 320px;
+    margin-top: -4px;
+    width: 390px;
     height: auto;
+    margin-right: -18px;
 }
 tr.bigimages td a{
 	position: relative;
