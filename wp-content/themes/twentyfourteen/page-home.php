@@ -107,7 +107,7 @@ $jppc(document).ready(function($) {
 	if ( $custom_query->have_posts() ):
 	   	while ( $custom_query->have_posts() ) : $custom_query->the_post();?>
 		<li class="latestnews">
-			<a href="/rss-feed/206-career-opportunities" class="latestnews">Career Opportunities</a>
+			<a href="<?php the_permalink();?>" class="latestnews"><?php echo get_the_title(); ?></a>
 		</li>
 		<?php endwhile; ?>
 	<?php endif; ?>
