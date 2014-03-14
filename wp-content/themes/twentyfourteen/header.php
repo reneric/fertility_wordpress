@@ -37,7 +37,7 @@
 <div class="nav-top">
 	<div class="container">
 		<div class="link-wrap">
-			<a href="/baby-pics" class="mainlevel" >Our Babies</a><span class="mainlevel" >|</span><a href="/patient-testimonials" class="mainlevel" >Patient Testimonials</a><span class="mainlevel" >|</span><a href="/events/297" class="mainlevel" >Events</a><span class="mainlevel" >|</span><a href="/contact" class="mainlevel" >Contact Us</a><span class="mainlevel" >|</span><a href="/locations" class="mainlevel" >Locations</a>	
+			<a href="<?php echo bloginfo('url');?>/our-babies" class="mainlevel" >Our Babies</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/patient-testimonials" class="mainlevel" >Patient Testimonials</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/contact" class="mainlevel" >Contact Us</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/locations" class="mainlevel" >Locations</a>	
 		</div><!-- link-wrap -->
 	</div><!-- container -->
 </div><!-- nav-top -->
@@ -71,8 +71,8 @@
 </tbody>
 </table>
 	    
-	    	<a href="/blog" class="btn"> Doctor&apos;s Blog</a>
-	    	<a href="/patient-resources" class="btn"> Patient Resources</a>
+	    	<a href="<?php echo bloginfo('url');?>/blog" class="btn"> Doctor&apos;s Blog</a>
+	    	<a href="<?php echo bloginfo('url');?>/patient-resources" class="btn"> Patient Resources</a>
 	    </td>
 	    </tr>
 	</table></td>
