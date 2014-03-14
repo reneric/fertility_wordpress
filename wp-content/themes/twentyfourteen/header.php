@@ -37,7 +37,7 @@
 <div class="nav-top">
 	<div class="container">
 		<div class="link-wrap">
-			<a href="<?php echo bloginfo('url');?>/our-babies" class="mainlevel" >Our Babies</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/patient-testimonials" class="mainlevel" >Patient Testimonials</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/contact" class="mainlevel" >Contact Us</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/locations" class="mainlevel" >Locations</a>	
+			<a href="<?php echo bloginfo('url');?>/our-babies" class="mainlevel" >Our Babies</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/patient-testimonials" class="mainlevel" >Patient Testimonials</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/contact-us" class="mainlevel" >Contact Us</a><span class="mainlevel" >|</span><a href="<?php echo bloginfo('url');?>/locations" class="mainlevel" >Locations</a>	
 		</div><!-- link-wrap -->
 	</div><!-- container -->
 </div><!-- nav-top -->
