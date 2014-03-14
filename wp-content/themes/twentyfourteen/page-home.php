@@ -101,28 +101,14 @@ $jppc(document).ready(function($) {
   	<td class="col3">
   				<div class="moduletable">
 					<h3>News and Events</h3>
-					<ul class="latestnews">
-	<li class="latestnews">
-		<a href="/rss-feed/206-career-opportunities" class="latestnews">
-			Career Opportunities</a>
-	</li>
-	<li class="latestnews">
-		<a href="/rss-feed/197-take-shape-for-life" class="latestnews">
-			Take Shape for Life</a>
-	</li>
-	<li class="latestnews">
-		<a href="/rss-feed/194-expanded-alexandria-office-coming-soon" class="latestnews">
-			Expanded Alexandria Office Hours &amp; Services</a>
-	</li>
-	<li class="latestnews">
-		<a href="/rss-feed/179-celebration-day-october-30-2011" class="latestnews">
-			Celebration Day 2013 Photos</a>
-	</li>
-	<li class="latestnews">
-		<a href="/fwhc-in-the-news" class="latestnews">
-			FWHC In the News</a>
-	</li>
-</ul>		</div>
+	<ul class="latestnews">
+	<?php while ( have_posts() ) : the_post();?>
+		<li class="latestnews">
+			<a href="/rss-feed/206-career-opportunities" class="latestnews">Career Opportunities</a>
+		</li>
+	<?php endwhile;?>		
+	</ul>
+</div>
 		
   	</td>
   </tr>
@@ -131,19 +117,7 @@ $jppc(document).ready(function($) {
 	<div id="primary" class="content-area" style="display:none;">
 		<div id="content" class="site-content" role="main">
 
-			<?php
-				// Start the Loop.
-				while ( have_posts() ) : the_post();
-
-					// Include the page content template.
-					get_template_part( 'content', 'page' );
-
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) {
-						comments_template();
-					}
-				endwhile;
-			?>
+			
 
 		</div><!-- #content -->
 	</div><!-- #primary -->

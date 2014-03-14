@@ -63,7 +63,9 @@
 	    <table style="width:171px;">
 <tbody>
 <tr>
-<td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://twitter.com/#!/fertilitydocla" title="Follow our docs on Twitter!"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/twitter.png" height="28" width="29" /></a></td>
+<td style="padding-left: 0px; padding-right: 7px;">
+	<a target="_blank" href="http://twitter.com/#!/fertilitydocla" title="Follow our docs on Twitter!">
+	<img src="<?php echo get_template_directory_uri();?>/images/main/stories/twitter.png" height="28" width="29" /></a></td>
 <td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://www.facebook.com/pages/Lafayette-LA/FertilityAnswers/388415746829" title="Join FertilityAnswer's Facebook Page!"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/facebook.png" height="29" width="28" /></a></td>
 <td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://www.youtube.com/user/fertilityanswers?blend=4&amp;ob=5" title="FertilityAnswer's YouTube Channel"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/youtube.png" height="29" width="29" /></a></td>
 <td style="padding-left: 0px; padding-right: 7px;"><a target="_blank" href="http://www.flickr.com/photos/fwhcla/" title="FWHC's Flickr Photos"><img src="<?php echo get_template_directory_uri();?>/images/main/stories/flickr.png" border="0" height="29" width="28" /></a></td>
