@@ -50,7 +50,7 @@
    		<td height="10" colspan="2" align="right" valign="bottom"></td>
    	</tr>
 	  <tr>
-	   <td width="328" rowspan="2" align="left"><a href="/"><img name="index_r1_c1" src="<?php echo get_template_directory_uri();?>/images/home/images/index_r1_c1.png" width="296" height="86" border="0" id="index_r1_c1" alt="" /></a></td>
+	   <td width="328" rowspan="2" align="left"><a href="/"><img name="index_r1_c1" src="<?php echo get_template_directory_uri();?>/images/logo.png" width="296" height="86" border="0" id="index_r1_c1" alt="" /></a></td>
 	  </tr>
 	  <tr>
 	    <td width="300" height="62" align="right" valign="center" class="searchit">
