@@ -102,11 +102,15 @@ $jppc(document).ready(function($) {
   				<div class="moduletable">
 					<h3>News and Events</h3>
 	<ul class="latestnews">
-	<?php while ( have_posts() ) : the_post();?>
+	<?php $args = array ( 'post_type' => "post", 'posts_per_page' => 5 );
+	$custom_query = new WP_Query( $args );
+	if ( $custom_query->have_posts() ):
+	   	while ( $custom_query->have_posts() ) : $custom_query->the_post();?>
 		<li class="latestnews">
 			<a href="/rss-feed/206-career-opportunities" class="latestnews">Career Opportunities</a>
 		</li>
-	<?php endwhile;?>		
+		<?php endwhile; ?>
+	<?php endif; ?>
 	</ul>
 </div>
 		
